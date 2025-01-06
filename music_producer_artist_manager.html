@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Music Producer & Artist Manager</title>
+    <title>NB Amor - Music Producer & Artist Manager</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -17,11 +16,15 @@
             background-color: #222;
             color: #fff;
             padding: 40px;
-            text-align: center;
+            position: relative;
         }
         header h1 {
             font-size: 2.5em;
             margin: 0;
+            position: absolute;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
         }
         nav {
             display: flex;
@@ -67,36 +70,54 @@
             background-color: #222;
             color: #fff;
         }
+        footer .social-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        footer .social-icons a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.5em;
+            margin: 0 15px;
+        }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Your Music, Perfected</h1>
+    <h1>NB Amor</h1>
     <p>Professional Music Production and Artist Management</p>
 </header>
 
 <nav>
-    <a href="#projects">Projects</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
+    <a href="#bio">BIO</a>
+    <a href="#productions">Productions</a>
+    <a href="#collaboration">Collaboration</a>
 </nav>
 
-<div class="container" id="projects">
-    <div class="project">
-        <img src="project1.jpg" alt="Project Image">
-        <h2>Project Title</h2>
-        <p>Description of the project. Include details about the collaboration and the music style.</p>
-    </div>
-    <div class="project">
-        <img src="project2.jpg" alt="Project Image">
-        <h2>Project Title</h2>
-        <p>Description of the project. Include details about the collaboration and the music style.</p>
-    </div>
+<div class="container" id="bio">
+    <h2>Bio</h2>
+    <p>Details about the artist and the music production journey. You can describe your background, experience, and vision.</p>
+</div>
+
+<div class="container" id="productions">
+    <h2>Productions</h2>
+    <p>Showcase of the artist’s music productions, collaborations, and notable projects.</p>
+</div>
+
+<div class="container" id="collaboration">
+    <h2>Collaboration</h2>
+    <p>Information about potential collaborations, including the type of work you are interested in and the artists you've worked with.</p>
 </div>
 
 <footer>
-    <p>&copy; 2025 Your Studio Name. All Rights Reserved.</p>
+    <p>&copy; 2025 NB Amor. All Rights Reserved.</p>
+    <div class="social-icons">
+        <a href="https://www.tiktok.com/@yourhandle" target="_blank">🎵</a>
+        <a href="mailto:youremail@example.com">📧</a>
+        <a href="https://www.instagram.com/yourhandle" target="_blank">📷</a>
+    </div>
 </footer>
 
 </body>
